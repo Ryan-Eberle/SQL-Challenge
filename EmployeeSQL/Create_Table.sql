@@ -12,7 +12,7 @@ CREATE TABLE employees (
     birth_date DATE   NOT NULL,
     first_name VARCHAR   NOT NULL,
     last_name VARCHAR   NOT NULL,
-    sex INT   NOT NULL,
+    sex VARCHAR   NOT NULL,
     hire_date DATE   NOT NULL,
     CONSTRAINT pk_employees PRIMARY KEY (
         emp_no
@@ -22,7 +22,7 @@ CREATE TABLE employees (
 -- Salaries/Emp Numbers
 CREATE TABLE salaries (
     emp_no INT   NOT NULL,
-    salary INT   NOT NULL
+    salary INT   NOT NULe
 );
 
 -- Department Manager/Number
